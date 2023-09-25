@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Project
+[Library]
+Project=.\Project\Project.lib
+[$LibMap$]
+Project=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/Gates.vhd=-1
+/Stage1.vhd=-1
+/Stage2.vhd=-1
+[Files.Data]
+.\src\Gates.vhd=VHDL Source Code
+.\src\Stage1.vhd=VHDL Source Code
+.\src\Stage2.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=testb|bb|0
+ShowHide=ShowTopLevel
+Selected=

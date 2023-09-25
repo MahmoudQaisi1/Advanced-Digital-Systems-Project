@@ -1,0 +1,4 @@
+testb ENTITY
+xor3 ENTITY
+nand2 ENTITY
+DFF8 ENTITY

@@ -1,0 +1,46 @@
+Active-HDL 13.0.376.8320 2023-09-25 18:15:53
+
+Elaboration top modules:
+Architecture                  bb(testb)
+
+
+------------------------------------------------------------------------------------------------
+Entity        | Architecture | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+testb         | bb           | project |      | 13.0.376.8320 (Windows64) | -O3
+TestGenerator | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+Comparator    | Stage2       | project |      | 13.0.376.8320 (Windows64) | -O3
+Analyzer      | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+DFF           | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+Encoder8x3    | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+Mux8x1        | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+oneBitComp    | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+xor2          | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+or4           | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+not1          | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+and3          | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+and4          | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+and2          | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+or8           | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+or2           | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+xnor2         | simple       | project |      | 13.0.376.8320 (Windows64) | -O3
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+VHDL Package                 | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+standard                     | std     |      |                           | <unavailable>
+TEXTIO                       | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164               | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith              | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_SIGNED             | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+NUMERIC_STD                  | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+Library                      | Comment
+------------------------------------------------------------------------------------------------
+ieee                         | Standard IEEE packages library
+project                      | None
+std                          | Standard VHDL library
+------------------------------------------------------------------------------------------------

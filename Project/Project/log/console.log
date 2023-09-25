@@ -1,0 +1,74 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Unit testb(bb) created by an old version of the compiler found.
+# ELBREAD: Error: Library 'project' has incompatible format. Recompile all library units.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -reorder -O3 -e 100 -work Project -2002  $dsn/src/Gates.vhd $dsn/src/Stage1.vhd $dsn/src/Stage2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/ASUS/Desktop/College/First third year/Advanced Digital/VHDL Projects/Project/Project/src/Gates.vhd
+# Compile Entity "not1"
+# Compile Architecture "simple" of Entity "not1"
+# Compile Entity "and2"
+# Compile Architecture "simple" of Entity "and2"
+# Compile Entity "and3"
+# Compile Architecture "simple" of Entity "and3"
+# Compile Entity "and4"
+# Compile Architecture "simple" of Entity "and4"
+# Compile Entity "or2"
+# Compile Architecture "simple" of Entity "or2"
+# Compile Entity "or4"
+# Compile Architecture "simple" of Entity "or4"
+# Compile Entity "or8"
+# Compile Architecture "simple" of Entity "or8"
+# Compile Entity "nand2"
+# Compile Architecture "simple" of Entity "nand2"
+# Compile Entity "nor2"
+# Compile Architecture "simple" of Entity "nor2"
+# Compile Entity "nor8"
+# Compile Architecture "simple" of Entity "nor8"
+# Compile Entity "xnor2"
+# Compile Architecture "simple" of Entity "xnor2"
+# Compile Entity "xor2"
+# Compile Architecture "simple" of Entity "xor2"
+# Compile Entity "xor3"
+# Compile Architecture "simple" of Entity "xor3"
+# Compile Entity "DFF"
+# Compile Architecture "simple" of Entity "DFF"
+# Compile Entity "DFF8"
+# Compile Architecture "simple" of Entity "DFF8"
+# File: C:/Users/ASUS/Desktop/College/First third year/Advanced Digital/VHDL Projects/Project/Project/src/Stage1.vhd
+# Compile Entity "halfAdder"
+# Compile Architecture "simple" of Entity "halfAdder"
+# Compile Entity "fullAdder"
+# Compile Architecture "simple" of Entity "fullAdder"
+# Compile Entity "Adder8bits"
+# Compile Architecture "simple" of Entity "Adder8bits"
+# Compile Entity "Comparator"
+# Compile Architecture "Stage1" of Entity "Comparator"
+# Compile Architecture "Stage2" of Entity "Comparator"
+# Compile Entity "testb"
+# Compile Architecture "bb" of Entity "testb"
+# File: C:/Users/ASUS/Desktop/College/First third year/Advanced Digital/VHDL Projects/Project/Project/src/Stage2.vhd
+# Compile Entity "Encoder8x3"
+# Compile Architecture "simple" of Entity "Encoder8x3"
+# Compile Entity "Mux8x1"
+# Compile Architecture "simple" of Entity "Mux8x1"
+# Compile Entity "oneBitComp"
+# Compile Architecture "simple" of Entity "oneBitComp"
+# Compile Entity "TestGenerator"
+# Compile Architecture "simple" of Entity "TestGenerator"
+# Compile Entity "Analyzer"
+# Compile Architecture "simple" of Entity "Analyzer"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => testb
+# Entity => xor3
+# Entity => nand2
+# Entity => DFF8
+# File: C:/Users/ASUS/Desktop/College/First third year/Advanced Digital/VHDL Projects/Project/Project/src/Stage1.vhd
+# Compile Architecture "Stage2" of Entity "Comparator"
+# Compile Architecture "bb" of Entity "testb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
